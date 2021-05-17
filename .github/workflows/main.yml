@@ -4,7 +4,7 @@ name: index20scrape
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '0 17 * * *'
+    - cron:  '0 19 * * *'
 
 
 jobs: 
