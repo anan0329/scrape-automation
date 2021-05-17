@@ -1,5 +1,5 @@
 # Hourly scraping
-name: nifty50scrape
+name: index20scrape
 
 # Controls when the action will run.
 on:
