@@ -21,4 +21,4 @@ url_html %>%
 colnames(top_volumn) <- table_title
 
 
-if(!all(is.na(top_volumn))) write_csv(top_volumn, paste0('data/',Sys.Date(),'_top_volumn','.csv'))
+if(!all(is.na(top_volumn))) write_csv(as.data.frame(top_volumn), paste0('data/',Sys.Date(),'_top_volumn','.csv'))
